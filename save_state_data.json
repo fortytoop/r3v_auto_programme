@@ -1,0 +1,87 @@
+{
+    "save_1": {
+        "voltage": {
+            "value": 2.7,
+            "unit": "V"
+        },
+        "pump": {
+            "speed": 60.0,
+            "tubing": 1.5,
+            "direction": "Clockwise"
+        },
+        "mfc_flow_rate": 85.0,
+        "stirrer_speed": 450.0,
+        "duration": {
+            "value": null,
+            "unit": "hours"
+        }
+    },
+    "save_2": {
+        "voltage": {
+            "value": 500.0,
+            "unit": "mA"
+        },
+        "pump": {
+            "speed": 80.0,
+            "tubing": 1.2,
+            "direction": "Counter-clockwise"
+        },
+        "mfc_flow_rate": 120.0,
+        "stirrer_speed": 900.0,
+        "duration": {
+            "value": 20.0,
+            "unit": "minutes"
+        }
+    },
+    "save_3": {
+        "voltage": {
+            "value": 8.0,
+            "unit": "V"
+        },
+        "pump": {
+            "speed": 30.0,
+            "tubing": 5.0,
+            "direction": "Clockwise"
+        },
+        "mfc_flow_rate": 60.0,
+        "stirrer_speed": 350.0,
+        "duration": {
+            "value": 2.0,
+            "unit": "hours"
+        }
+    },
+    "save_4": {
+        "voltage": {
+            "value": 0.9,
+            "unit": "A"
+        },
+        "pump": {
+            "speed": 42.0,
+            "tubing": 0.1,
+            "direction": "Clockwise"
+        },
+        "mfc_flow_rate": 40.0,
+        "stirrer_speed": 1100.0,
+        "duration": {
+            "value": 45.0,
+            "unit": "minutes"
+        }
+    },
+    "save_5": {
+        "voltage": {
+            "value": 5.0,
+            "unit": "V"
+        },
+        "pump": {
+            "speed": 100.0,
+            "tubing": 10.0,
+            "direction": "Clockwise"
+        },
+        "mfc_flow_rate": 75.0,
+        "stirrer_speed": 600.0,
+        "duration": {
+            "value": 1.5,
+            "unit": "hours"
+        }
+    }
+}
