@@ -251,7 +251,7 @@ class NewExperimentToplevelWindow(ctk.CTkToplevel):
 
 
         # ===== Setup Details Frame =====
-        self.setup_frame = ctk.CTkFrame(self)
+        self.setup_frame = ctk.CTkScrollableFrame(self)
         self.setup_frame.grid(row=2, column=0, pady=(0, 20), sticky='ew')
         self.setup_frame.grid_columnconfigure((0, 1), weight=1)
 
@@ -504,7 +504,7 @@ class App(ctk.CTk):
     MAIN_HEIGHT = 720
 
     SECONDARY_WIDTH = 640
-    SECONDARY_HEIGHT = 860
+    SECONDARY_HEIGHT = 640
 
     # DEFAULT COLOURS
     COLOUR_BRIGHT_RED = '#ff1a1a'
